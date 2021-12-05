@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnT2(_ sender: Any) {
+        debugPrint("dev1_b> add AAA ")
         ex1.funcExT2()
     }
     
