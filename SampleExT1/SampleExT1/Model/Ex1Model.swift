@@ -14,7 +14,7 @@ class Ex1Model {
     }
     
     func funcExT1(){
-        print("funcExT1 extend ")
+        print("funcExT1 extend > after rebart eidt>")
     }
     func funcExT2(){
         print("funcExT1")
