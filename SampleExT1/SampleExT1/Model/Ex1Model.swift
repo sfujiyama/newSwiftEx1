@@ -9,7 +9,7 @@ import Foundation
 
 class Ex1Model {
     init() {
-        print("init")
+        print("init > test kraken")
     }
     
     func funcExT1(){
