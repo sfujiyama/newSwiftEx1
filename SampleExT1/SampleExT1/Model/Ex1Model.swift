@@ -9,7 +9,7 @@ import Foundation
 
 class Ex1Model {
     init() {
-        debugPrint("dev1_A>add")
+        debugPrint("dev1_A>add >more edit")
         debugPrint("devT1_A>test")
         print("init > test kraken")
     }
