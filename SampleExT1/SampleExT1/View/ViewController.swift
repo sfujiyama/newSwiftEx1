@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageMain: UIImageView!
-    
     let ex1 = Ex1Model()
 
     // MARK: - 
@@ -28,6 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("hello new world.")
     }
 
 

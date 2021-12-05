@@ -13,7 +13,7 @@ class Ex1Model {
     }
     
     func funcExT1(){
-        print("funcExT1")
+        print("funcExT1 extend ")
     }
     func funcExT2(){
         print("funcExT1")
