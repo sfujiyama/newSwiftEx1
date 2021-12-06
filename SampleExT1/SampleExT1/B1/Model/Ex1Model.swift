@@ -17,9 +17,11 @@ class Ex1Model {
     
     func funcExT1(){
         print("funcExT1 ++++ extend > after rebart eidt>")
+        debugPrint("NEW")
+        print("init > test kraken>NEW")
+        print("funcExT1 extend > aftexxxxxxr rebart eidt>")
     }
     func funcExT2(){
-        print("funcExT1>dev1_C>Edit＞修正")
     }
     func funcExT3(){
         print("funcExT1")
