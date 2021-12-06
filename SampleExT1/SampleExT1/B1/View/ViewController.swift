@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     // MARK: - 
     @IBAction func btnT1(_ sender: Any) {
-        debugPrint("dev1_a> add DDDDccc ")
+        debugPrint("＋＋＋dev1_a> add ccc ")
         ex1.funcExT1()
     }
     
