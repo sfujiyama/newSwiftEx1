@@ -58,8 +58,7 @@
 		32126312275C69F700C8AF91 /* SampleExT1 */ = {
 			isa = PBXGroup;
 			children = (
-				32324549275C745F00AE4C39 /* Model */,
-				3232454A275C746900AE4C39 /* View */,
+				32A2FB64275EC6B800ACD5D2 /* B1 */,
 				32126313275C69F700C8AF91 /* AppDelegate.swift */,
 				32126315275C69F700C8AF91 /* SceneDelegate.swift */,
 				3212631C275C69F900C8AF91 /* Assets.xcassets */,
@@ -84,6 +83,15 @@
 				32126317275C69F700C8AF91 /* ViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		32A2FB64275EC6B800ACD5D2 /* B1 */ = {
+			isa = PBXGroup;
+			children = (
+				32324549275C745F00AE4C39 /* Model */,
+				3232454A275C746900AE4C39 /* View */,
+			);
+			path = B1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
