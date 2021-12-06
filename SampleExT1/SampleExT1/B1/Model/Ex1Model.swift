@@ -9,11 +9,8 @@ import Foundation
 
 class Ex1Model {
     init() {
-<<<<<<< .merge_file_gqEnCI
         debugPrint("dev1_C>add")
         debugPrint("dev1_A>add")
-=======
->>>>>>> .merge_file_lZl4Zq
         debugPrint("devT1_A>test")
         print("init > test kraken")
     }
@@ -22,11 +19,7 @@ class Ex1Model {
         print("funcExT1 extend > after rebart eidt>")
     }
     func funcExT2(){
-<<<<<<< .merge_file_gqEnCI
-        print("funcExT1>dev1_C>Edit")
-=======
-        print("funcExT1＞修正")
->>>>>>> .merge_file_lZl4Zq
+        print("funcExT1>dev1_C>Edit＞修正")
     }
     func funcExT3(){
         print("funcExT1")
