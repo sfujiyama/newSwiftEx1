@@ -9,14 +9,14 @@ import Foundation
 
 class Ex1Model {
     init() {
-        debugPrint("dev1_C>add")
+        debugPrint("dev1_C>add +++")
         debugPrint("dev1_A>add")
         debugPrint("devT1_A>test")
-        print("init > test kraken")
+        print("init > test kraken +++")
     }
     
     func funcExT1(){
-        print("funcExT1 extend > after rebart eidt>")
+        print("funcExT1 ++++ extend > after rebart eidt>")
     }
     func funcExT2(){
         print("funcExT1>dev1_C>Edit＞修正")
