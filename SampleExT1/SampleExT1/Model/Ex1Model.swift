@@ -9,7 +9,6 @@ import Foundation
 
 class Ex1Model {
     init() {
-        debugPrint("dev1_A>add")
         debugPrint("devT1_A>test")
         print("init > test kraken")
     }
@@ -18,7 +17,7 @@ class Ex1Model {
         print("funcExT1 extend > after rebart eidt>")
     }
     func funcExT2(){
-        print("funcExT1")
+        print("funcExT1＞修正")
     }
     func funcExT3(){
         print("funcExT1")
