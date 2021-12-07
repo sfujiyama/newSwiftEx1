@@ -8,7 +8,11 @@
 import Foundation
 
 class Ex2Model {
+<<<<<<< HEAD
     var string1 = "＋＋＋ DDDD"
+=======
+    var string1 = "＋＋＋ SSSS"
+>>>>>>> dev1_C
     var string2 = "＋＋＋"
     var string3 = "＋＋＋"
 

@@ -9,7 +9,11 @@ import Foundation
 
 class Ex1Model {
     init() {
+<<<<<<< HEAD
         debugPrint("DDD>dev1_C>add +++EDIT")
+=======
+        debugPrint("dev1_C>add +++EDIT XXX")
+>>>>>>> dev1_C
         debugPrint("dev1_A>add")
         debugPrint("devT1_A>test")
         print("init > test kraken +++")
