@@ -8,7 +8,7 @@
 import Foundation
 
 class Ex2Model {
-    var string1 = "＋＋＋"
+    var string1 = "＋＋＋ SSSS"
     var string2 = "＋＋＋"
     var string3 = "＋＋＋"
 
