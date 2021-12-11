@@ -10,24 +10,31 @@ import Foundation
 class Ex1Model {
     init() {
         debugPrint("Git2>1")
-        debugPrint("1AA DDD AA ZZZ DDD>dev1_C>add +++EDIT")
-        debugPrint("NEW")
-        debugPrint("2dev1_A>add")
-        debugPrint("3devT1_A>test")
-        print("init > test kraken +++")
+    }
+    
+    func funcExT2(){
+        debugPrint("Git2>1")
+        debugPrint("1")
+        debugPrint("2")
+        debugPrint("3")
     }
     
     func funcExT1(){
         debugPrint("Git2>1")
-        debugPrint("NEW")
-        print("init > test kraken>NEW")
-        print("funcExT1 extend > aftexxxxxxr rebart eidt>")
+        debugPrint("1")
+        debugPrint("2")
+        debugPrint("3")
     }
     func funcExT2(){
         debugPrint("Git2>1")
+        debugPrint("1")
+        debugPrint("2")
+        debugPrint("3")
     }
     func funcExT3(){
-        print("funcExT1")
+        debugPrint("1")
+        debugPrint("2")
+        debugPrint("3")
     }
     
 }
