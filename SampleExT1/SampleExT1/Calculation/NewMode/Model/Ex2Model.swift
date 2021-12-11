@@ -8,9 +8,9 @@
 import Foundation
 
 class Ex2Model {
-    var string1 = "xDDD＋＋＋ DDDD"
-    var string2 = "xDDD＋＋＋"
-    var string3 = "＋＋＋"
+    var string1 = "1"
+    var string2 = "2"
+    var string3 = "3"
 
 }
 
