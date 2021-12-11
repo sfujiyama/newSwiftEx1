@@ -16,6 +16,7 @@
 		321835DF27601A1A00DF4119 /* B2Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321835DE27601A1A00DF4119 /* B2Main.storyboard */; };
 		321835E127601A2900DF4119 /* B2MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321835E027601A2900DF4119 /* B2MainViewController.swift */; };
 		32324548275C740600AE4C39 /* Ex1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32324547275C740600AE4C39 /* Ex1Model.swift */; };
+		329D4A8327647BF100838415 /* Ex3Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4A8227647BF100838415 /* Ex3Model.swift */; };
 		32A2FB68275ED07D00ACD5D2 /* Ex2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FB67275ED07D00ACD5D2 /* Ex2Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		321835DE27601A1A00DF4119 /* B2Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = B2Main.storyboard; sourceTree = "<group>"; };
 		321835E027601A2900DF4119 /* B2MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2MainViewController.swift; sourceTree = "<group>"; };
 		32324547275C740600AE4C39 /* Ex1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex1Model.swift; sourceTree = "<group>"; };
+		329D4A8227647BF100838415 /* Ex3Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex3Model.swift; sourceTree = "<group>"; };
 		32A2FB67275ED07D00ACD5D2 /* Ex2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 			children = (
 				32324547275C740600AE4C39 /* Ex1Model.swift */,
 				32A2FB67275ED07D00ACD5D2 /* Ex2Model.swift */,
+				329D4A8227647BF100838415 /* Ex3Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32324548275C740600AE4C39 /* Ex1Model.swift in Sources */,
+				329D4A8327647BF100838415 /* Ex3Model.swift in Sources */,
 				32126318275C69F700C8AF91 /* ViewController.swift in Sources */,
 				32A2FB68275ED07D00ACD5D2 /* Ex2Model.swift in Sources */,
 				321835E127601A2900DF4119 /* B2MainViewController.swift in Sources */,
