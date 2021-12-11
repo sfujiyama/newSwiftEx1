@@ -9,6 +9,7 @@ import Foundation
 
 class Ex1Model {
     init() {
+        debugPrint("Git2>1")
         debugPrint("1AA DDD AA ZZZ DDD>dev1_C>add +++EDIT")
         debugPrint("NEW")
         debugPrint("2dev1_A>add")
@@ -17,13 +18,13 @@ class Ex1Model {
     }
     
     func funcExT1(){
-        print("DDD AA ZZZ funcExT1 ++++ extend > after rebart eidt>")
+        debugPrint("Git2>1")
         debugPrint("NEW")
         print("init > test kraken>NEW")
         print("funcExT1 extend > aftexxxxxxr rebart eidt>")
     }
     func funcExT2(){
-        print("init > test kraken>NEW")
+        debugPrint("Git2>1")
     }
     func funcExT3(){
         print("funcExT1")
