@@ -1,19 +1,18 @@
 //
-//  B2MainViewController.swift
+//  CalculationViewController.swift
 //  SampleExT1
 //
-//  Created by pleocene on 2021/12/08.
+//  Created by pleocene on 2021/12/13.
 //
 
 import UIKit
 
-class B2MainViewController: UIViewController {
+class CalculationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        debugPrint("ZZZ")
     }
     
 

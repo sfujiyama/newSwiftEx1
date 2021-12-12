@@ -25,6 +25,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="T1"/>
                                         <connections>
                                             <action selector="btnT1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tNG-PB-TLw"/>
+                                            <segue destination="I2r-JZ-dsj" kind="presentation" modalPresentationStyle="fullScreen" id="dFC-as-APr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBD-y1-Wmm">
@@ -98,6 +99,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="29.600000000000001" y="69.715142428785612"/>
+        </scene>
+        <!--ExPKHUD-->
+        <scene sceneID="ibB-Bt-KAS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ExPKHUD" id="I2r-JZ-dsj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UWP-oK-Gtm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="-158"/>
         </scene>
     </scenes>
     <resources>
