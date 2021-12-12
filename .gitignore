@@ -1,1 +1,12 @@
-!/SampleExT1/Pods/
+# Mac
+.DS_Store
+ 
+## User settings
+xcuserdata/
+
+## Pods
+Pods/
+
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+*.xcworkspace
+
