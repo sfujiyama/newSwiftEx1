@@ -8,6 +8,6 @@
 import Foundation
 
 class Ex3Model {
-    var note1 = "1"
+    var note1 = "1 >PJ2"
     
 }
