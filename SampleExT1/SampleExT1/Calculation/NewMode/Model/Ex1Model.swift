@@ -10,6 +10,7 @@ import Foundation
 class Ex1Model {
     init() {
         debugPrint("Git2>1")
+        debugPrint("1")
     }
     
     func funcExT1(){
@@ -25,7 +26,7 @@ class Ex1Model {
         debugPrint("3")
     }
     func funcExT3(){
-        debugPrint("1")
+        debugPrint("1 >PJ2")
         debugPrint("2")
         debugPrint("3")
     }
