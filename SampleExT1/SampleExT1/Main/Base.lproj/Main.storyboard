@@ -22,7 +22,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TN-xr-Iu3">
                                         <rect key="frame" x="0.0" y="0.0" width="118.5" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="T1"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="PKHUD"/>
                                         <connections>
                                             <action selector="btnT1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tNG-PB-TLw"/>
                                             <segue destination="I2r-JZ-dsj" kind="presentation" modalPresentationStyle="fullScreen" id="dFC-as-APr"/>
@@ -31,9 +31,10 @@
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBD-y1-Wmm">
                                         <rect key="frame" x="128.5" y="0.0" width="118" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="T2"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="PanModal"/>
                                         <connections>
                                             <action selector="btnT2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TB4-mi-gRJ"/>
+                                            <segue destination="kXM-bL-YwO" kind="presentation" modalPresentationStyle="fullScreen" id="2zX-bX-NLj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgF-cg-gOv">
@@ -107,6 +108,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UWP-oK-Gtm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="606" y="-158"/>
+        </scene>
+        <!--ExModalView-->
+        <scene sceneID="SwC-32-WdZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ExModalView" id="kXM-bL-YwO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAJ-0F-rF8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="-2"/>
         </scene>
     </scenes>
     <resources>
