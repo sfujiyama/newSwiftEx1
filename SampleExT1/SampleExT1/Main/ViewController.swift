@@ -6,10 +6,24 @@
 //
 
 import UIKit
+import SideMenu
+
+// MARK: - SideMenu
+extension ViewController {
+    func showSideMenu(){
+        let storyboard = UIStoryboard(name: "SideMenu", bundle: nil)
+        let menuViewController = storyboard.instantiateViewController(withIdentifier: "sideMenu")
+        let menuNavigationController = storyboard.instantiateViewController(withIdentifier: "sideMenuNavi")
+        present(menuNavigationController, animated: true, completion: nil)
+
+    }
+}
+
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageMain: UIImageView!
     let ex1 = Ex1Model()
+    
 
     // MARK: - 
     @IBAction func btnT1(_ sender: Any) {
@@ -17,15 +31,14 @@ class ViewController: UIViewController {
         debugPrint("＋＋＋dev1_a> add ccc ")
         ex1.funcExT1()
     }
-    
     @IBAction func btnT2(_ sender: Any) {
         debugPrint("ZZZdev1_b> add AAA ")
         debugPrint("dev1_b> New ++ ")
         ex1.funcExT2()
     }
-    
     @IBAction func btnT3(_ sender: Any) {
-        ex1.funcExT3()
+        // Side Menu
+        showSideMenu()
     }
     
     override func viewDidLoad() {
@@ -34,7 +47,6 @@ class ViewController: UIViewController {
         print("hello new world.")
         print("ZZZ hello new world.")
     }
-
 
 }
 

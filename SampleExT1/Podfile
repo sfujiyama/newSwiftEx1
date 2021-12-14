@@ -4,5 +4,6 @@
 target 'SampleExT1' do
 pod 'PKHUD'
 pod 'PanModal'
+pod 'SideMenu'
 
 end

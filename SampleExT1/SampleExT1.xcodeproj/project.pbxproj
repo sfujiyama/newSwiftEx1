@@ -21,6 +21,8 @@
 		325ABCE7276805280085257B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325ABCE6276805280085257B /* ModalViewController.swift */; };
 		325ABCE9276805AB0085257B /* ExModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325ABCE8276805AB0085257B /* ExModalViewController.swift */; };
 		325ABCEB276805FE0085257B /* ExModalView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325ABCEA276805FE0085257B /* ExModalView.storyboard */; };
+		325ABCEF2769545F0085257B /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325ABCEE2769545F0085257B /* SideMenu.storyboard */; };
+		325ABCF1276954920085257B /* SIdeMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325ABCF0276954920085257B /* SIdeMenuTableViewController.swift */; };
 		329D4A8327647BF100838415 /* Ex3Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4A8227647BF100838415 /* Ex3Model.swift */; };
 		32A2FB68275ED07D00ACD5D2 /* Ex2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FB67275ED07D00ACD5D2 /* Ex2Model.swift */; };
 		46977433A0BD1A9406B0E1B3 /* libPods-SampleExT1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E54A6399050F1FBCA04EA8 /* libPods-SampleExT1.a */; };
@@ -44,6 +46,8 @@
 		325ABCE6276805280085257B /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		325ABCE8276805AB0085257B /* ExModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExModalViewController.swift; sourceTree = "<group>"; };
 		325ABCEA276805FE0085257B /* ExModalView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExModalView.storyboard; sourceTree = "<group>"; };
+		325ABCEE2769545F0085257B /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		325ABCF0276954920085257B /* SIdeMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIdeMenuTableViewController.swift; sourceTree = "<group>"; };
 		329D4A8227647BF100838415 /* Ex3Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex3Model.swift; sourceTree = "<group>"; };
 		32A2FB67275ED07D00ACD5D2 /* Ex2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2Model.swift; sourceTree = "<group>"; };
 		EEB934876563AAA271B4DA00 /* Pods-SampleExT1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleExT1.debug.xcconfig"; path = "Target Support Files/Pods-SampleExT1/Pods-SampleExT1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,7 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				325ABCDF2766B4560085257B /* Main */,
-				32A2FB64275EC6B800ACD5D2 /* Calculation */,
+				32A2FB64275EC6B800ACD5D2 /* Example */,
+				325ABCEC2769537A0085257B /* SideMenu */,
 				325ABCE4276804730085257B /* PanModal */,
 				321835DC276019F500DF4119 /* ExPKHUD */,
 				32126313275C69F700C8AF91 /* AppDelegate.swift */,
@@ -159,21 +164,30 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		329D4A812764790400838415 /* NewMode */ = {
+		325ABCEC2769537A0085257B /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				3232454A275C746900AE4C39 /* View */,
-				32324549275C745F00AE4C39 /* Model */,
+				325ABCED276953E30085257B /* View */,
 			);
-			path = NewMode;
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		32A2FB64275EC6B800ACD5D2 /* Calculation */ = {
+		325ABCED276953E30085257B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				329D4A812764790400838415 /* NewMode */,
+				325ABCEE2769545F0085257B /* SideMenu.storyboard */,
+				325ABCF0276954920085257B /* SIdeMenuTableViewController.swift */,
 			);
-			path = Calculation;
+			path = View;
+			sourceTree = "<group>";
+		};
+		32A2FB64275EC6B800ACD5D2 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				32324549275C745F00AE4C39 /* Model */,
+				3232454A275C746900AE4C39 /* View */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 		52437F43407FE1B5CF3A58D3 /* Frameworks */ = {
@@ -259,6 +273,7 @@
 				321835DF27601A1A00DF4119 /* ExPKHUD.storyboard in Resources */,
 				3212631D275C69F900C8AF91 /* Assets.xcassets in Resources */,
 				3212631B275C69F700C8AF91 /* Main.storyboard in Resources */,
+				325ABCEF2769545F0085257B /* SideMenu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +330,7 @@
 				32324548275C740600AE4C39 /* Ex1Model.swift in Sources */,
 				329D4A8327647BF100838415 /* Ex3Model.swift in Sources */,
 				32126318275C69F700C8AF91 /* ViewController.swift in Sources */,
+				325ABCF1276954920085257B /* SIdeMenuTableViewController.swift in Sources */,
 				32A2FB68275ED07D00ACD5D2 /* Ex2Model.swift in Sources */,
 				321835E127601A2900DF4119 /* ExPKHUDViewController.swift in Sources */,
 				32126314275C69F700C8AF91 /* AppDelegate.swift in Sources */,
