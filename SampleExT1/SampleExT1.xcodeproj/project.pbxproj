@@ -23,6 +23,8 @@
 		325ABCEB276805FE0085257B /* ExModalView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325ABCEA276805FE0085257B /* ExModalView.storyboard */; };
 		325ABCEF2769545F0085257B /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325ABCEE2769545F0085257B /* SideMenu.storyboard */; };
 		325ABCF1276954920085257B /* SIdeMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325ABCF0276954920085257B /* SIdeMenuTableViewController.swift */; };
+		325ABCF5276AA8880085257B /* Nantes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325ABCF4276AA8880085257B /* Nantes.storyboard */; };
+		325ABCF7276AA8AB0085257B /* NantesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325ABCF6276AA8AB0085257B /* NantesViewController.swift */; };
 		329D4A8327647BF100838415 /* Ex3Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329D4A8227647BF100838415 /* Ex3Model.swift */; };
 		32A2FB68275ED07D00ACD5D2 /* Ex2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FB67275ED07D00ACD5D2 /* Ex2Model.swift */; };
 		46977433A0BD1A9406B0E1B3 /* libPods-SampleExT1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E54A6399050F1FBCA04EA8 /* libPods-SampleExT1.a */; };
@@ -48,6 +50,8 @@
 		325ABCEA276805FE0085257B /* ExModalView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExModalView.storyboard; sourceTree = "<group>"; };
 		325ABCEE2769545F0085257B /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		325ABCF0276954920085257B /* SIdeMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIdeMenuTableViewController.swift; sourceTree = "<group>"; };
+		325ABCF4276AA8880085257B /* Nantes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nantes.storyboard; sourceTree = "<group>"; };
+		325ABCF6276AA8AB0085257B /* NantesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NantesViewController.swift; sourceTree = "<group>"; };
 		329D4A8227647BF100838415 /* Ex3Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex3Model.swift; sourceTree = "<group>"; };
 		32A2FB67275ED07D00ACD5D2 /* Ex2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex2Model.swift; sourceTree = "<group>"; };
 		EEB934876563AAA271B4DA00 /* Pods-SampleExT1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleExT1.debug.xcconfig"; path = "Target Support Files/Pods-SampleExT1/Pods-SampleExT1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			children = (
 				325ABCDF2766B4560085257B /* Main */,
 				32A2FB64275EC6B800ACD5D2 /* Example */,
+				325ABCF2276AA86B0085257B /* Nantes */,
 				325ABCEC2769537A0085257B /* SideMenu */,
 				325ABCE4276804730085257B /* PanModal */,
 				321835DC276019F500DF4119 /* ExPKHUD */,
@@ -181,6 +186,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		325ABCF2276AA86B0085257B /* Nantes */ = {
+			isa = PBXGroup;
+			children = (
+				325ABCF3276AA8780085257B /* View */,
+			);
+			path = Nantes;
+			sourceTree = "<group>";
+		};
+		325ABCF3276AA8780085257B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				325ABCF4276AA8880085257B /* Nantes.storyboard */,
+				325ABCF6276AA8AB0085257B /* NantesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		32A2FB64275EC6B800ACD5D2 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				325ABCE12766B47E0085257B /* Calculation.storyboard in Resources */,
+				325ABCF5276AA8880085257B /* Nantes.storyboard in Resources */,
 				32126320275C69F900C8AF91 /* LaunchScreen.storyboard in Resources */,
 				325ABCEB276805FE0085257B /* ExModalView.storyboard in Resources */,
 				321835DF27601A1A00DF4119 /* ExPKHUD.storyboard in Resources */,
@@ -327,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				325ABCE32766B49D0085257B /* CalculationViewController.swift in Sources */,
+				325ABCF7276AA8AB0085257B /* NantesViewController.swift in Sources */,
 				32324548275C740600AE4C39 /* Ex1Model.swift in Sources */,
 				329D4A8327647BF100838415 /* Ex3Model.swift in Sources */,
 				32126318275C69F700C8AF91 /* ViewController.swift in Sources */,

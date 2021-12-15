@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ALk-FN-p2w">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="31"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TN-xr-Iu3">
-                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="48"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="PKHUD"/>
                                         <connections>
@@ -29,7 +29,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBD-y1-Wmm">
-                                        <rect key="frame" x="128.5" y="0.0" width="118" height="31"/>
+                                        <rect key="frame" x="96.5" y="0.0" width="86" height="48"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="PanModal"/>
                                         <connections>
@@ -38,11 +38,19 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgF-cg-gOv">
-                                        <rect key="frame" x="256.5" y="0.0" width="118.5" height="31"/>
+                                        <rect key="frame" x="192.5" y="0.0" width="86.5" height="48"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="SideMenu"/>
                                         <connections>
                                             <action selector="btnT3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFL-ER-CIG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DK-cA-soZ">
+                                        <rect key="frame" x="289" y="0.0" width="86" height="48"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Nantes"/>
+                                        <connections>
+                                            <segue destination="uoJ-Ks-5z0" kind="showDetail" id="eDx-gg-4jE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -119,6 +127,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fsS-Fq-peK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="631" y="59"/>
+        </scene>
+        <!--Nantes-->
+        <scene sceneID="FSG-ft-B5d">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Nantes" id="uoJ-Ks-5z0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yaK-7B-giw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="-259"/>
         </scene>
         <!--ExPKHUD-->
         <scene sceneID="ibB-Bt-KAS">
