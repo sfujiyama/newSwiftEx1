@@ -134,19 +134,11 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		329D4A812764790400838415 /* NewMode */ = {
-			isa = PBXGroup;
-			children = (
-				3232454A275C746900AE4C39 /* View */,
-				32324549275C745F00AE4C39 /* Model */,
-			);
-			path = NewMode;
-			sourceTree = "<group>";
-		};
 		32A2FB64275EC6B800ACD5D2 /* Calculation */ = {
 			isa = PBXGroup;
 			children = (
-				329D4A812764790400838415 /* NewMode */,
+				32324549275C745F00AE4C39 /* Model */,
+				3232454A275C746900AE4C39 /* View */,
 			);
 			path = Calculation;
 			sourceTree = "<group>";
