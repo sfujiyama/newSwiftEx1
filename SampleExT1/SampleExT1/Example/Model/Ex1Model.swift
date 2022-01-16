@@ -9,7 +9,7 @@ import Foundation
 
 class Ex1Model {
     init() {
-        debugPrint("Bwork>devw")
+        debugPrint("Case2>Bwork>devw")
         debugPrint("Git1>Git2>1")
         debugPrint("1")
     }
