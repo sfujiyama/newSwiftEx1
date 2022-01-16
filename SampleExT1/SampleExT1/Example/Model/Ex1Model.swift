@@ -14,15 +14,9 @@ class Ex1Model {
     
     func funcExT1(){
         debugPrint("Bwork>devw")
-        debugPrint("Git1>1")
-        debugPrint("2")
-        debugPrint("3")
     }
     func funcExT2(){
         debugPrint("Git2>1")
-        debugPrint("1")
-        debugPrint("2")
-        debugPrint("3")
     }
     func funcExT3(){
         debugPrint("Git1>1 >PJ2")
