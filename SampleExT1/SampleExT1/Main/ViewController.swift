@@ -45,9 +45,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("case2 New>hello new world.")
+        print("Bwork>upd>case1")
+        print("upd>case1>hello new world.")
         print("upd>")
         print("upd>hello new world.")
-        print("upd>ZZZ hello new world.")
     }
 
 }
