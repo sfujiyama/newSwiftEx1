@@ -44,8 +44,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("hello new world.")
-        print("ZZZ hello new world.")
+        print("case1")
+        print("case1>hello new world.")
     }
 
 }
