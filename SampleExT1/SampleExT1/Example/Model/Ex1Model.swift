@@ -9,9 +9,7 @@ import Foundation
 
 class Ex1Model {
     init() {
-        debugPrint("Case2>Bwork>devw")
-        debugPrint("Git1>Git2>1")
-        debugPrint("1")
+        debugPrint("B2>Bwork>devw")
     }
     
     func funcExT1(){
