@@ -18,8 +18,11 @@ class Ex1Model {
     func funcExT2(){
         debugPrint("Git2>1")
     }
+    func funcExT2X(){
+        debugPrint("C3>")
+    }
     func funcExT3(){
-        debugPrint("Git1>1 >PJ2")
+        debugPrint("C3>Git1>1 >PJ2")
         debugPrint("2")
         debugPrint("3")
     }

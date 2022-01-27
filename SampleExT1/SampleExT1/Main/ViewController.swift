@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     // MARK: - 
     @IBAction func btnT1(_ sender: Any) {
         debugPrint("ZZZ AA ＋＋＋dev1_a> add ccc ++++")
+        ex1.funcExT2()
+        ex1.funcExT2()
         debugPrint("＋＋＋dev1_a> add ccc ")
         ex1.funcExT1()
     }
@@ -45,6 +47,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("B2>case2 New>hello new world.")
+        print("C3>Bwork>upd>case1")
         print("B2>Bwork>upd>case1")
     }
 
