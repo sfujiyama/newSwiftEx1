@@ -9,14 +9,11 @@ import Foundation
 
 class Ex1Model {
     init() {
-        debugPrint("B2>Bwork>devw")
+        debugPrint("CONF>B2>Bwork>devw")
     }
     
     func funcExT1(){
         debugPrint("Bwork>devw")
-    }
-    func funcExT2(){
-        debugPrint("Git2>1")
     }
     func funcExT2X(){
         debugPrint("C3>")

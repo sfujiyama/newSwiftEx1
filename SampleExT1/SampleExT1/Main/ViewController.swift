@@ -27,14 +27,12 @@ class ViewController: UIViewController {
 
     // MARK: - 
     @IBAction func btnT1(_ sender: Any) {
-        debugPrint("ZZZ AA ＋＋＋dev1_a> add ccc ++++")
-        ex1.funcExT2()
-        ex1.funcExT2()
-        debugPrint("＋＋＋dev1_a> add ccc ")
+        debugPrint("CONF>ZZZ AA ＋＋＋dev1_a> add ccc ++++")
+        debugPrint("CONF>＋＋＋dev1_a> add ccc ")
         ex1.funcExT1()
     }
     @IBAction func btnT2(_ sender: Any) {
-        debugPrint("ZZZdev1_b> add AAA ")
+        debugPrint("CONF>ZZZdev1_b> add AAA ")
         debugPrint("dev1_b> New ++ ")
         ex1.funcExT2()
     }
