@@ -7,6 +7,8 @@
 
 import Foundation
 
+// 0306 update
+
 class Ex1Model {
     init() {
         debugPrint("CONF>B2>Bwork>devw")
