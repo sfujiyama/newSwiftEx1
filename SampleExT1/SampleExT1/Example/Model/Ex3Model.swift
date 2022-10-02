@@ -8,6 +8,12 @@
 import Foundation
 
 class Ex3Model {
+    // コミットCPC
+    func dummyFuncCPC(){
+        print("dummy funcC>")
+    }
+
+    
     var note1 = "Git1>1 >PJ2"
     var note2 = "Git2"
 
