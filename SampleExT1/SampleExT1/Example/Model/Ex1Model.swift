@@ -8,6 +8,12 @@
 import Foundation
 
 class Ex1Model {
+    // コミットB
+    func dummyFuncB(){
+        print("dummy func>")
+    }
+
+    
     init() {
         debugPrint("XXX>Git1>Git2>1")
         debugPrint("Git1>Git2>1")

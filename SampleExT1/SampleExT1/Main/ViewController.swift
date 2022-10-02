@@ -14,6 +14,12 @@ func dummyFuncA(){
     print("dummy func>")
 }
 
+// コミットB
+func dummyFuncB(){
+    print("dummy func>")
+}
+
+
 // MARK: - SideMenu
 extension ViewController {
     func showSideMenu(){
