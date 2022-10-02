@@ -43,6 +43,7 @@
 		321835DE27601A1A00DF4119 /* ExPKHUD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExPKHUD.storyboard; sourceTree = "<group>"; };
 		321835E027601A2900DF4119 /* ExPKHUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExPKHUDViewController.swift; sourceTree = "<group>"; };
 		32324547275C740600AE4C39 /* Ex1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex1Model.swift; sourceTree = "<group>"; };
+		32345D1A28E9729F00D0A20E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		325ABCE02766B47E0085257B /* Calculation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculation.storyboard; sourceTree = "<group>"; };
 		325ABCE22766B49D0085257B /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		325ABCE6276805280085257B /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 		32126312275C69F700C8AF91 /* SampleExT1 */ = {
 			isa = PBXGroup;
 			children = (
+				32345D1A28E9729F00D0A20E /* README.md */,
 				325ABCDF2766B4560085257B /* Main */,
 				32A2FB64275EC6B800ACD5D2 /* Example */,
 				325ABCF2276AA86B0085257B /* Nantes */,
@@ -203,7 +205,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		32A2FB64275EC6B800ACD5D2 /* Calculation */ = {
+		32A2FB64275EC6B800ACD5D2 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				32324549275C745F00AE4C39 /* Model */,
