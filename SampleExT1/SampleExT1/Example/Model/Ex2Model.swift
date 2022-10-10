@@ -8,6 +8,10 @@
 import Foundation
 
 class Ex2Model {
+    // コミットT1B1
+    func dummyFuncT1B1(){
+        print("dummy dummyFuncT1B1>")
+    }
     // コミットCPB
     func dummyFuncCPB(){
         print("dummy funcB>")
