@@ -8,6 +8,12 @@
 import Foundation
 
 class Ex1Model {
+    // コミットT1A1
+    func dummyFuncT1A1(){
+        print("dummy dummyFuncT1A1>")
+    }
+
+    
     // コミットCPA
     func dummyFuncCPA(){
         print("dummy funcA>")
