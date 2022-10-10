@@ -8,12 +8,6 @@
 import UIKit
 import SideMenu
 
-
-// コミットA
-func dummyFuncA(){
-    print("dummy func>")
-}
-
 // コミットB
 func dummyFuncB(){
     print("dummy func>")
