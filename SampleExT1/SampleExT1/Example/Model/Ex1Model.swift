@@ -12,6 +12,10 @@ class Ex1Model {
     func dummyFuncT1A1(){
         print("dummy dummyFuncT1A1>")
     }
+    // コミットT1A2
+    func dummyFuncT1A2(){
+        print("dummy dummyFuncT1A2>")
+    }
 
     
     // コミットCPA
