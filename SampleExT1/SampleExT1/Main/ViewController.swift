@@ -8,6 +8,23 @@
 import UIKit
 import SideMenu
 
+func test1(){
+    
+}
+
+
+
+// コミットB
+func dummyFuncB(){
+    print("dummy func>")
+}
+
+// コミットC
+func dummyFuncC(){
+    print("dummy func>")
+}
+
+
 // MARK: - SideMenu
 extension ViewController {
     func showSideMenu(){

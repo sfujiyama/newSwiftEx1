@@ -8,6 +8,20 @@
 import Foundation
 
 class Ex2Model {
+    func test3(){
+        
+    }
+    
+    // コミットCPB
+    func dummyFuncCPB(){
+        print("dummy funcB>")
+    }
+
+    // コミットC
+    func dummyFuncC(){
+        print("dummy func>")
+    }
+
     var string1 = "YYYY>Git2>1>Git1"
     var string2X = "C3>X"
     var string2 = "2"

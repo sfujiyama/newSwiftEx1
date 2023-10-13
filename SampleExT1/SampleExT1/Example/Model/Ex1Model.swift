@@ -10,6 +10,25 @@ import Foundation
 // 0306 update
 
 class Ex1Model {
+    func test2(){
+        
+    }
+    
+    // コミットT1A2
+    func dummyFuncT1A2(){
+        print("dummy dummyFuncT1A2>")
+    }
+    // コミットCPA
+    func dummyFuncCPA(){
+        print("dummy funcA>")
+    }
+
+    // コミットB
+    func dummyFuncB(){
+        print("dummy func>")
+    }
+
+    
     init() {
         debugPrint("CONF>B2>Bwork>devw")
     }
