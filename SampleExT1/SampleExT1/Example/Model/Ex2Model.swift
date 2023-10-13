@@ -23,6 +23,7 @@ class Ex2Model {
     }
 
     var string1 = "YYYY>Git2>1>Git1"
+    var string2X = "C3>X"
     var string2 = "2"
     var string3 = "3"
 

@@ -44,12 +44,12 @@ class ViewController: UIViewController {
 
     // MARK: - 
     @IBAction func btnT1(_ sender: Any) {
-        debugPrint("ZZZ AA ＋＋＋dev1_a> add ccc ++++")
-        debugPrint("＋＋＋dev1_a> add ccc ")
+        debugPrint("CONF>ZZZ AA ＋＋＋dev1_a> add ccc ++++")
+        debugPrint("CONF>＋＋＋dev1_a> add ccc ")
         ex1.funcExT1()
     }
     @IBAction func btnT2(_ sender: Any) {
-        debugPrint("ZZZdev1_b> add AAA ")
+        debugPrint("CONF>ZZZdev1_b> add AAA ")
         debugPrint("dev1_b> New ++ ")
         ex1.funcExT2()
     }
@@ -61,8 +61,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("hello new world.")
-        print("ZZZ hello new world.")
+        print("B2>case2 New>hello new world.")
+        print("C3>Bwork>upd>case1")
+        print("B2>Bwork>upd>case1")
     }
 
 }

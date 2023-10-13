@@ -7,6 +7,8 @@
 
 import Foundation
 
+// 0306 update
+
 class Ex1Model {
     func test2(){
         
@@ -28,25 +30,17 @@ class Ex1Model {
 
     
     init() {
-        debugPrint("XXX>Git1>Git2>1")
-        debugPrint("Git1>Git2>1")
-        debugPrint("1")
+        debugPrint("CONF>B2>Bwork>devw")
     }
     
     func funcExT1(){
-        debugPrint("XXX>Git1>Git2>1")
-        debugPrint("Git1>1")
-        debugPrint("2")
-        debugPrint("3")
+        debugPrint("Bwork>devw")
     }
-    func funcExT2(){
-        debugPrint("Git2>1")
-        debugPrint("1")
-        debugPrint("2")
-        debugPrint("3")
+    func funcExT2X(){
+        debugPrint("C3>")
     }
     func funcExT3(){
-        debugPrint("Git1>1 >PJ2")
+        debugPrint("C3>Git1>1 >PJ2")
         debugPrint("2")
         debugPrint("3")
     }
